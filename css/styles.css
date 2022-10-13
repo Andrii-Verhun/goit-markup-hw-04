@@ -379,6 +379,17 @@ img {
     padding: 60px 0px;
 }
 
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.container-physadress {
+    width: 231px;
+    height: 132px;
+}
+
 .physical-address {
     font-style: normal;
     font-size: 14px;
@@ -409,6 +420,57 @@ img {
 .contacts-footer:focus {
     color: var(--brand-color);
 }
+
+.invitation {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-linklist {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-linklist-item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-linklist-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50% 50%;
+    color: #FFFFFF;
+}
+
+.footer-linklist-icon {
+    fill: currentColor;
+}
+
+.footer-linklist-link:hover {
+    background-color: var(--brand-color);
+}
+
+.footer-linklist-link:focus {
+    background-color: var(--brand-color);
+}
+
+
+/* Портфолио */
 
 .projects-filter {
     list-style-type: none;
